@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loto Analyseur Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Loto Analyseur Pro</h1>
+    <p>Analyse les tirages du Loto FDJ pour générer des grilles optimisées basées sur les statistiques réelles.</p>
+    <a class="btn" href="LotoAnalyseur_v1.0.zip" download>Télécharger l'application (.zip)</a>
+    <p><a href="changelog.html">Voir les mises à jour</a></p>
+    <footer>
+      <p>Version actuelle : <strong>1.0</strong> – Avril 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6fa;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 50px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Changelog - Loto Analyseur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Journal des mises à jour</h1>
+
+    <h3>Version 1.0 – Avril 2025</h3>
+    <ul>
+      <li>Analyse des derniers tirages Loto FDJ (.csv)</li>
+      <li>Fréquences, retard, paires et tendances</li>
+      <li>Générateur de grilles optimisées</li>
+      <li>Création d’un installeur Windows (.msi)</li>
+      <li>Mise à jour automatique intégrée</li>
+    </ul>
+
+    <p><a href="index.html">← Retour à l’accueil</a></p>
+  </div>
+</body>
+</html>
+1.0
